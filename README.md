@@ -2,12 +2,17 @@
 
 Pylon token is a **smart-contract-based token**, which enables to invest in renewable energy installations.
 
-Total Supply: 3000000000000000000000000.
-Token name: Pylon Token.
-Decimal Units: 18.
-Token symbol: PYLNT.
-Max percentage: 10.
-Minutes for investment: 2000.
+Total Supply: 3000000000000000000000000
+<br>
+Token name: Pylon Token
+<br>
+Decimal Units: 18
+<br>
+Token symbol: PYLNT
+<br>
+Max percentage: 10
+<br>
+Minutes for investment: 2000
 
 ## Warning
 
