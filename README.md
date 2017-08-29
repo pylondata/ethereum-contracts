@@ -1,6 +1,13 @@
-# Pylon token contract v0.1 (alpha)
+# Pylon token contract v0.0.2 (alpha)
 
 Pylon token is a **smart-contract-based token**, which enables to invest in renewable energy installations.
+
+Total Supply: 3000000000000000000000000
+Token name: Pylon Token
+Decimal Units: 18
+Token symbol: PYLNT
+Max percentage: 10
+Minutes for investment: 2000
 
 ## Warning
 
@@ -311,7 +318,7 @@ Testing mode.
 - [WEB Klenergy Tech](http://klenergy-tech.com/)
 - [METRON](http://metron.es)
 - [Facebook](https://www.facebook.com/KlenergyTechOfficial/s)
-- [LinkdIn]( https://www.linkedin.com/company-beta/10229571/)
+- [LinkedIn]( https://www.linkedin.com/company-beta/10229571/)
 
 
 ## License
