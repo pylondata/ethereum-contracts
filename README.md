@@ -1,4 +1,4 @@
-# Pylon token contract v0.0.2 (alpha)
+# Pylon token contract v0.1.1 (alpha)
 
 Pylon token is a **smart-contract-based token**, which enables to invest in renewable energy installations.
 
