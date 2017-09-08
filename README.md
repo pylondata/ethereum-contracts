@@ -1,8 +1,8 @@
-# Pylon token contract v0.1.1 (alpha)
+# Pylon token contract v0.2.0 (alpha)
 
 Pylon token is a **smart-contract-based token**, which enables to invest in renewable energy installations.
 
-Total Supply: 3000000000000000000000000
+Total Supply: 3750000000000000000000000
 <br>
 Token name: Pylon Token
 <br>
