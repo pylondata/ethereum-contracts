@@ -42,7 +42,7 @@ contract PylonToken is owned {
 
     using SafeMath for uint256;
 
-    address public beneficiary = 0xAE0151Ca8C9b6A1A7B50Ce80Bf7436400E22b535;  //Chip-chap Klenergy Address of ether beneficiary account
+    address public beneficiary = 0x000 ...;  //Address of ether beneficiary account during the crowdsale, change when compile!!
     uint256 public fundingGoal = 21230434782608700000000;     // Foundig goal in weis = 21230,434782608700000000 Ethers
     uint256 public amountRaised;    // Quantity of weis investeds
     uint256 public deadline; // durationInMinutes * 60 / 17 + 5000;        // Last moment to invest
