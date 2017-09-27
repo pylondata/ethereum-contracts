@@ -12,7 +12,7 @@ Token symbol: PYLNT
 <br>
 Max percentage: 10
 <br>
-Minutes for investment: 2000
+Minutes for investment: 46770
 
 ## Warning
 
@@ -43,14 +43,6 @@ Transfer the owner ship of the contract to other address.
 <br>
 <br>
 <br>
-**setMinBalance**
-```cs
-function setMinBalance(uint minimumBalanceInFinney)
-```
-Set min balance of pylon token to have in the account.
-<br>
-<br>
-<br>
 **freezeAccount**
 ```cs
 function freezeAccount(address target, bool freeze)
@@ -59,80 +51,9 @@ Lock account for not allow transfers.
 <br>
 <br>
 <br>
-**lock**
-```cs
-function lock(string newBuyLock, string newSellLock,uint256 panicBuyCounterU,uint256 panicSellCounterU)
-```
-Set new lock parameters for buy or sale tokens.
-<br>
-<br>
-<br>
-**setSpread**
-```cs
-function setSpread(uint8 Spread)
-```
-Set a fix spreat between sell and buy orders.
-<br>
-<br>
-<br>
-**setPanic**
-```cs
-function setPanic(uint8 panicLevelU, uint256 panicTimeU)
-```
-Set panic level and panic time.
-<br>
-<br>
-<br>
-**withdraw**
-```cs
-function withdraw(uint value)
-```
-Send eth to owner address.
-<br>
-<br>
-<br>
-**changeInvestmentRules**
-```cs
-function changeInvestmentRules(uint maxPercentageForInvestments, uint minutesForInvestment)
-```
-Change rules for new investment offer.
-<br>
-<br>
-<br>
-**changeInvestmentRules**
-```cs
-function newInvestmentOffer(address beneficiary, uint etherAmount, string JobDescription, bytes transactionBytecode)
-```
-Add new investment offer to mint Pylon Token and get part of new renewable installation.
-<br>
-<br>
-<br>
+
 ### Events
 
-**InvestmentOfferAdded**
-```cs
-event InvestmentOfferAdded(uint proposalID, address recipient, uint amount, string description)
-```
-Triggered when an investment offer is added.
-<br>
-<br>
-<br>
-**Invested**
-```cs
-event Invested(uint proposalID, address investor, string justification)
-```
-Triggered when a new investment is done.
-<br>
-<br>
-<br>
-**ChangeOfRules**
-```cs
-event ChangeOfRules(uint maxPercentage, uint investmentOfferPeriodInMinutes)
-```
-Triggered when the investment rules change.
-<br>
-<br>
-<br>
 **FrozenFunds**
 ```cs
 event FrozenFunds(address target, bool frozen)
